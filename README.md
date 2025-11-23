@@ -45,25 +45,14 @@ The detector is pure interpretability — it has zero influence on the policy.
 When the ghost box + arm lock onto the correct object → grounding worked.  
 When they drift or pick the wrong one → grounding broke. Instant, unambiguous feedback.
 
-### Commands that work well today
+### Commands to try
 
-```text
 lift the keyboard by 8 inches
 move the mouse left by 10 inches
 push the keyboard forward 6 inches
 slide the mouse diagonally up and right by 12 inches
 pick up the mouse and lift 10 inches
 raise the keyboard slowly by 15 inches
-
-### Why the external Faster R-CNN exists
-
-OpenVLA itself never tells you which object it’s acting on.  
-Without the red/blue boxes you literally cannot tell whether “move the mouse” moved the mouse or the keyboard.
-
-The detector is pure interpretability — it has zero influence on the policy.
-
-When the ghost box + arm lock onto the correct object → grounding worked.  
-When they drift or pick the wrong one → grounding broke. Instant, unambiguous feedback.
 
 ### Current limitations (late 2025 )
 
@@ -73,11 +62,3 @@ When they drift or pick the wrong one → grounding broke. Instant, unambiguous 
 - Long or ambiguous prompts produce visible drift  
 - No depth, no collision checking, no safety layer
 
-### Commands that seem to work ok
-
-lift the keyboard by 8 inches
-move the mouse left by 10 inches
-push the keyboard forward 6 inches
-slide the mouse diagonally up and right by 12 inches
-pick up the mouse and lift 10 inches
-raise the keyboard slowly by 15 inches
