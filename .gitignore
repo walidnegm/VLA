@@ -1,0 +1,60 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+vla-win-312/
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs & debug
+*.log
+logs/
+debug.log
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache/
+.mypy_cache/
+.pytest_cache/
+pytest_cache/
+__pypackages__/
+
+# Data / models (uncomment or edit as needed)
+# data/
+# models/
+# *.pt
+# *.pth
+# *.ckpt
+
+# Environment / secrets
+*.env
+*.env.*
+.envrc
+
+# Misc
+*.tmp
+*.bak
